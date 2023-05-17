@@ -1,0 +1,93 @@
+html,body{
+    height:100%;
+    margin:0;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right: 50px;
+}
+
+body{
+    color:white;
+    background: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.158) 96.1%), url(./images/fondo.jpg);
+    background-size: 105rem;
+}
+.logo{
+    max-width: 180px;
+    height: auto;
+}
+img-logo{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.button1{
+    background-color: #E50914;
+    width: 75px;
+    height: 33px;
+    border-radius: 5px;
+    border:none;
+    margin-left: 7px;
+}
+.button1:hover {
+    background-color:#c00811;
+    transition: 0.7s;
+}
+.button2{
+    background-color: #E50914;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:none;
+    margin-left: 7px;
+}
+a{
+    text-decoration: none;
+    color:white
+}
+.select{
+    color:white;
+    text-align:  center;
+    width: 120px;
+    height: 33px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+input{
+    color:white;
+    width: 370px;
+    height: 50px;
+    border-radius: 5px;
+    border:1px solid;
+    border-color: rgb(110, 110, 110);
+    background-color: rgba(29, 27, 27, 0.568);
+}
+input::placeholder {
+    padding: 20px;
+    color:rgb(175, 175, 175);
+    font-size: 17px;
+  }
+.text1{
+    margin-left: 70px;
+    margin-top: 90px;
+}
+h1{
+    font-size: 60px;
+    letter-spacing: -2px;
+    font-weight: 900;
+    margin: 0;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
